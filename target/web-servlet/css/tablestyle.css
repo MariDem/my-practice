@@ -1,0 +1,52 @@
+input{
+    padding: 7px;
+    color: black;
+    background-color: #14e715;
+    font-size: large;
+    margin: auto;
+}
+.styled-table {
+    margin: auto;
+    font-size: 0.9em;
+    min-width: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #14e715;
+    color: #ff7107;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #14e715;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ffffff;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #14e715;
+}
+html {
+    background-image: url(https://s1.1zoom.ru/b5050/54/Dragons_Fire_507193_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
